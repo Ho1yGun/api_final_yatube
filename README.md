@@ -41,3 +41,17 @@ python3 manage.py migrate
 ```
 python3 manage.py runserver
 ```
+### Эндпоинты:
+```
+/api/v1/posts/ - GET, POST
+/api/v1/posts/{id}/- GET, PUT, PATH, DELETE
+/api/v1/posts/{id}/comment - GET, POST
+/api/v1/posts/{id}/comment/{id} - GET, PUT, PATH, DELETE
+/api/v1/groups/ - GET
+/api/v1/groups/{id} - GET
+/api/v1/follow/ - GET, POST
+/api/v1/jwt/create/ - POST
+/api/v1/jwt/refresh/ - POST
+/api/v1/jwt/verify/ - POST
+```
+#### Автор проекта Ho1yGun, практическая работа Яндекс Практикум
