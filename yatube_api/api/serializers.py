@@ -6,7 +6,7 @@ from rest_framework.validators import UniqueTogetherValidator
 class PostSerializer(serializers.ModelSerializer):
     author = serializers.SlugRelatedField(
         slug_field='username',
-        read_only=True
+        read_only=True,
     )
 
     class Meta:
