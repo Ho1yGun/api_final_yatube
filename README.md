@@ -48,6 +48,7 @@ python3 manage.py migrate
 ```
 python3 manage.py runserver
 ```
+
 ### Эндпоинты:
 ```
 /api/v1/posts/ - GET, POST
